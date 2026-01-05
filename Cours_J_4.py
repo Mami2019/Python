@@ -8,3 +8,4 @@ Concaténation et f-strings
 """
 texte = "  Python   "
 print(texte.strip())
+print (texte.lower())
