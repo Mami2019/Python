@@ -1,0 +1,44 @@
+"""
+<<<<<<< HEAD
+Boucle while et for
+"""
+# while : boucle conditionnelle
+=======
+Objectifs du jour
+Répéter des instructions avec "while"
+Parcourir des séquences avec "for"
+Comprendre "range(start, stop, step)"
+Utiliser break et continue
+"""
+#while: boucle conditionnelle
+>>>>>>> main
+n = 1
+while n <= 5:
+    print(n)
+    n += 1
+
+<<<<<<< HEAD
+# for : boucle sur une séquence
+=======
+# for: boucle sur une séquence
+>>>>>>> main
+for i in range(3):
+    print("Bonjour", i)
+
+
+<<<<<<< HEAD
+# break / continue
+for i in range(10):
+    if i == 5:
+        break    # stoppe la boucle
+    if i % 2 == 0:
+        continue  # soute le reste et passe au suivant
+    print(i)
+=======
+for i in range(10):
+    if i == 5:
+        break  # stoppe la boucle
+    if i % 2 ==0
+        continue #
+    print(i)
+>>>>>>> main
